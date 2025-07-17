@@ -24,7 +24,7 @@ jobs:
       - id: meta
         uses: docker/metadata-action@v5
         with:
-          images: ${{ secrets.DOCKERHUB_USERNAME }}/trip-ui
+          images: ${{ secrets.DOCKERHUB_USERNAME }}/fun-factor
 
       - uses: docker/build-push-action@v5
         with:
