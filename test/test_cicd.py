@@ -1,5 +1,5 @@
 import pytest
-from app import app
+from fun_factor.app import app
 
 @pytest.fixture
 def client():
